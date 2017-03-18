@@ -26,7 +26,7 @@ unset GIT_DIR
 trap build_failed ERR
 
 
-if [ -f $build_dir/_nginx.cfg ]; then
+if [ -f conf/_nginx.cfg ]; then
   source conf/_nginx.cfg
 fi
 
